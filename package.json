@@ -1,0 +1,8 @@
+{
+  "name": "lasca-sdk-playground",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "git@github.com:tenbrother/lasca-sdk.git",
+  "author": "Genki Sato <genki.sato@lasca.co.jp>",
+  "license": "MIT"
+}
