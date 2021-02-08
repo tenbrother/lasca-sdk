@@ -1,8 +1,22 @@
 {
-  "name": "lasca-sdk-playground",
+  "name": "lasca-sdk",
   "version": "1.0.0",
-  "main": "dist/index.js",
+  "main": "dist/main.js",
+  "browser": "dist/browser.js",
+  "jsdelivr": "dist/browser.js",
   "repository": "git@github.com:tenbrother/lasca-sdk.git",
-  "author": "Genki Sato <genki.sato@lasca.co.jp>",
-  "license": "MIT"
+  "author": "Lasca Inc. <support@lasca.co.jp>",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {
+    "ts-loader": "^8.0.15",
+    "typescript": "^4.1.3",
+    "webpack": "^5.21.1",
+    "webpack-cli": "^4.5.0"
+  },
+  "scripts": {
+    "build": "rm -rf dist && webpack"
+  }
 }
