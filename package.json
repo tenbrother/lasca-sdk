@@ -1,6 +1,6 @@
 {
   "name": "lasca-sdk",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "dist/main.js",
   "browser": "dist/browser.js",
   "jsdelivr": "dist/browser.js",
